@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import './App.css';
 import Main from './pages/main';
 import UseInputPage from './pages/useInputPage';
+import UseTabsPage from './pages/useTabsPage';
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Main/>}/>
         <Route path="/useinput" element={<UseInputPage/>}/>
+        <Route path="/usetabs" element={<UseTabsPage/>}/>
       </Routes>
     </BrowserRouter>    
   );
