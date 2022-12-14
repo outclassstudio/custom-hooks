@@ -3,4 +3,4 @@
 - useInput
 
 ## Stack
-- React, Typescipt
+- React, Typescipt, Styled-components
