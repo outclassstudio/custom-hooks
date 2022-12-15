@@ -10,6 +10,7 @@ const Main = () => {
       <MainTitle>My Custom Hooks</MainTitle>
       <HookBtn onClick={() => navigate("/useinput")}>useInput</HookBtn>
       <HookBtn onClick={() => navigate("/usetabs")}>useTabs</HookBtn>
+      <HookBtn onClick={() => navigate("/usetitle")}>useTitle</HookBtn>
     </MainContainer>
   )
 }
