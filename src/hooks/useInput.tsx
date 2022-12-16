@@ -1,11 +1,11 @@
-import React, { useState } from "react"
+import { useState } from "react"
 
 type Validator = (value:string) => boolean
 
-const useInput = (initialValue:string, validator?:Validator) => {
+export const useInput = (initialValue:string, validator?:Validator) => {
   const [value, setValue] = useState(initialValue)
 
-  const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const onChange = (e: Change<Input>) => {
     let checkValidation = true
     if(validator) {
       checkValidation = validator(e.target.value)
@@ -17,5 +17,3 @@ const useInput = (initialValue:string, validator?:Validator) => {
   
   return { value, onChange }
 }
-
-export default useInput

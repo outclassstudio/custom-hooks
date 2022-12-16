@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import useInput from "../hooks/useInput"
+import { useInput } from "../hooks/useInput"
 import { FlexColumnDivCentered, Title } from "../style/utility.style"
 import { Link } from "react-router-dom"
 

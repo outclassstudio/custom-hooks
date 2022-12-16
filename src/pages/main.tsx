@@ -1,16 +1,19 @@
 import {useNavigate} from "react-router-dom"
 import styled from "styled-components"
+import { useTitle } from "../hooks/useTitle"
 import { FlexColumnDivCentered } from "../style/utility.style"
 
 const Main = () => {
   const navigate = useNavigate()
-
+  useTitle("My Custom Hooks")
+  
   return (
     <MainContainer>
       <MainTitle>My Custom Hooks</MainTitle>
       <HookBtn onClick={() => navigate("/useinput")}>useInput</HookBtn>
       <HookBtn onClick={() => navigate("/usetabs")}>useTabs</HookBtn>
       <HookBtn onClick={() => navigate("/usetitle")}>useTitle</HookBtn>
+      <HookBtn onClick={() => navigate("/useclick")}>useClick</HookBtn>
     </MainContainer>
   )
 }

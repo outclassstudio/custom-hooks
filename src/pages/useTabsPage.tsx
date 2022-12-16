@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import { FlexColumnDivCentered, FlexDivCentered, Title } from "../style/utility.style"
 import { Link } from "react-router-dom"
-import useTabs from "../hooks/useTabs"
+import { useTabs } from "../hooks/useTabs"
 
 const content = [
   {

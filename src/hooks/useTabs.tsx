@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-const useTabs = (initalTab:number, allTabs:any) => {
+export const useTabs = (initalTab:number, allTabs:any) => {
   const [currentIdx, setCurrentIdx] = useState(initalTab)
 
   if(!allTabs || !Array.isArray(allTabs)) {
@@ -12,5 +12,3 @@ const useTabs = (initalTab:number, allTabs:any) => {
     changeItem: setCurrentIdx
   }
 }
-
-export default useTabs
