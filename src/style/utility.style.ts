@@ -22,3 +22,7 @@ export const Title = styled.div`
   font-size: 25px;
   font-weight: 700;
 `
+export const NormalBtn = styled.button`
+  width: 100px;
+  height: 30px;
+`
