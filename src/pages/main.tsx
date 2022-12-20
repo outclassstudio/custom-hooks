@@ -16,6 +16,7 @@ const Main = () => {
       <HookBtn onClick={() => navigate("/useclick")}>useClick</HookBtn>
       <HookBtn onClick={() => navigate("/useconfirm")}>useConfirm</HookBtn>
       <HookBtn onClick={() => navigate("/usepreventleave")}>usePreventLeave</HookBtn>
+      <HookBtn onClick={() => navigate("/usebeforeleave")}>useBeforeLeave</HookBtn>
     </MainContainer>
   )
 }
