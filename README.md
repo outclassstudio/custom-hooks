@@ -6,6 +6,7 @@
 - useClick
 - useConfirm
 - usePreventLeave
+- useBeforeLeave
 
 ## Stack
 - React, Typescipt, Styled-components
