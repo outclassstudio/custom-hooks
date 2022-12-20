@@ -17,6 +17,8 @@ const Main = () => {
       <HookBtn onClick={() => navigate("/useconfirm")}>useConfirm</HookBtn>
       <HookBtn onClick={() => navigate("/usepreventleave")}>usePreventLeave</HookBtn>
       <HookBtn onClick={() => navigate("/usebeforeleave")}>useBeforeLeave</HookBtn>
+      <HookBtn onClick={() => window.location.replace("/usefadein")}>useFadeIn</HookBtn>
+      <HookBtn onClick={() => navigate("/usenetwork")}>useNetwork</HookBtn>
     </MainContainer>
   )
 }

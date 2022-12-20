@@ -3,7 +3,9 @@ import Main from './pages/main';
 import UseBeforeLeavePage from './pages/useBeforeLeavePage';
 import UseClickPage from './pages/useClickPage';
 import UseConfirmPage from './pages/useConfirmPage';
+import UseFadeinPage from './pages/useFadeInPage';
 import UseInputPage from './pages/useInputPage';
+import UseNetworkPage from './pages/useNetworkPage';
 import UsePreventLeavePage from './pages/usePreventLeavePage';
 import UseTabsPage from './pages/useTabsPage';
 import UseTitlePage from './pages/useTitlePage';
@@ -20,6 +22,8 @@ function App() {
         <Route path="/useconfirm" element={<UseConfirmPage/>}/>
         <Route path="/usepreventleave" element={<UsePreventLeavePage/>}/>
         <Route path="/usebeforeleave" element={<UseBeforeLeavePage/>}/>
+        <Route path="/usefadein" element={<UseFadeinPage/>}/>
+        <Route path="/usenetwork" element={<UseNetworkPage/>}/>
       </Routes>
     </BrowserRouter>    
   );
