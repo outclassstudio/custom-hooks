@@ -7,6 +7,8 @@
 - useConfirm
 - usePreventLeave
 - useBeforeLeave
+- useFadeIn
+- useNetwork
 
 ## Stack
 - React, Typescipt, Styled-components
