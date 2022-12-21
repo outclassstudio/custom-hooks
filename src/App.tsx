@@ -4,9 +4,11 @@ import UseBeforeLeavePage from './pages/useBeforeLeavePage';
 import UseClickPage from './pages/useClickPage';
 import UseConfirmPage from './pages/useConfirmPage';
 import UseFadeinPage from './pages/useFadeInPage';
+import UseFullScreenPage from './pages/useFullScreenPage';
 import UseInputPage from './pages/useInputPage';
 import UseNetworkPage from './pages/useNetworkPage';
 import UsePreventLeavePage from './pages/usePreventLeavePage';
+import UseScrollPage from './pages/useScrollPage';
 import UseTabsPage from './pages/useTabsPage';
 import UseTitlePage from './pages/useTitlePage';
 
@@ -24,6 +26,8 @@ function App() {
         <Route path="/usebeforeleave" element={<UseBeforeLeavePage/>}/>
         <Route path="/usefadein" element={<UseFadeinPage/>}/>
         <Route path="/usenetwork" element={<UseNetworkPage/>}/>
+        <Route path="/usescroll" element={<UseScrollPage/>}/>
+        <Route path="/usefullscreen" element={<UseFullScreenPage/>}/>
       </Routes>
     </BrowserRouter>    
   );
