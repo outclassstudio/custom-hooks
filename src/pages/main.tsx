@@ -19,6 +19,8 @@ const Main = () => {
       <HookBtn onClick={() => navigate("/usebeforeleave")}>useBeforeLeave</HookBtn>
       <HookBtn onClick={() => window.location.replace("/usefadein")}>useFadeIn</HookBtn>
       <HookBtn onClick={() => navigate("/usenetwork")}>useNetwork</HookBtn>
+      <HookBtn onClick={() => navigate("/usescroll")}>useScroll</HookBtn>
+      <HookBtn onClick={() => navigate("/usefullscreen")}>useFullScreen</HookBtn>
     </MainContainer>
   )
 }
