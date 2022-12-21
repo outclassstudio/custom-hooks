@@ -9,6 +9,8 @@
 - useBeforeLeave
 - useFadeIn
 - useNetwork
+- useScroll
+- useFullScreen
 
 ## Stack
 - React, Typescipt, Styled-components
