@@ -11,6 +11,7 @@
 - useNetwork
 - useScroll
 - useFullScreen
+- useNotification
 
 ## Stack
 - React, Typescipt, Styled-components
