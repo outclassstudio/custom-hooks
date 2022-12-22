@@ -22,6 +22,7 @@ const Main = () => {
       <HookBtn onClick={() => navigate("/usescroll")}>useScroll</HookBtn>
       <HookBtn onClick={() => navigate("/usefullscreen")}>useFullScreen</HookBtn>
       <HookBtn onClick={() => navigate("/usenotification")}>useNotification</HookBtn>
+      <HookBtn onClick={() => navigate("/useaxios")}>useAxios</HookBtn>
     </MainContainer>
   )
 }

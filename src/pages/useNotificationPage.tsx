@@ -4,7 +4,8 @@ import { useNotification } from "../hooks/useNotification"
 import { FlexColumnDivCentered, Title } from "../style/utility.style"
 
 const UseNotificationPage = () => {
-  const triggerNotif = useNotification("Hi",{body: "hello"})
+  const triggerNotif = useNotification("Hi", {body: "hello"})
+
   return (
     <UseNotificationContainer>
       <Title>useNotification</Title>
