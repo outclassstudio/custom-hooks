@@ -21,6 +21,7 @@ const Main = () => {
       <HookBtn onClick={() => navigate("/usenetwork")}>useNetwork</HookBtn>
       <HookBtn onClick={() => navigate("/usescroll")}>useScroll</HookBtn>
       <HookBtn onClick={() => navigate("/usefullscreen")}>useFullScreen</HookBtn>
+      <HookBtn onClick={() => navigate("/usenotification")}>useNotification</HookBtn>
     </MainContainer>
   )
 }
