@@ -7,6 +7,7 @@ import UseFadeinPage from './pages/useFadeInPage';
 import UseFullScreenPage from './pages/useFullScreenPage';
 import UseInputPage from './pages/useInputPage';
 import UseNetworkPage from './pages/useNetworkPage';
+import UseNotificationPage from './pages/useNotificationPage';
 import UsePreventLeavePage from './pages/usePreventLeavePage';
 import UseScrollPage from './pages/useScrollPage';
 import UseTabsPage from './pages/useTabsPage';
@@ -28,6 +29,7 @@ function App() {
         <Route path="/usenetwork" element={<UseNetworkPage/>}/>
         <Route path="/usescroll" element={<UseScrollPage/>}/>
         <Route path="/usefullscreen" element={<UseFullScreenPage/>}/>
+        <Route path="/usenotification" element={<UseNotificationPage/>}/>
       </Routes>
     </BrowserRouter>    
   );
