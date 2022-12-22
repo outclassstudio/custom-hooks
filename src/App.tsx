@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Main from './pages/main';
+import UseAxiosPage from './pages/useAxiosPage';
 import UseBeforeLeavePage from './pages/useBeforeLeavePage';
 import UseClickPage from './pages/useClickPage';
 import UseConfirmPage from './pages/useConfirmPage';
@@ -30,6 +31,7 @@ function App() {
         <Route path="/usescroll" element={<UseScrollPage/>}/>
         <Route path="/usefullscreen" element={<UseFullScreenPage/>}/>
         <Route path="/usenotification" element={<UseNotificationPage/>}/>
+        <Route path="/useaxios" element={<UseAxiosPage/>}/>
       </Routes>
     </BrowserRouter>    
   );
