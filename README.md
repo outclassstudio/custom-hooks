@@ -12,6 +12,7 @@
 - useScroll
 - useFullScreen
 - useNotification
+- useAxios
 
 ## Stack
 - React, Typescipt, Styled-components
